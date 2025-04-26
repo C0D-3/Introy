@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Security - Intro Tech Solutions</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #0a0a0a;
+      color: white;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Navbar */
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 20px;
+      background-color: #0a0a0a;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      font-size: 16px;
+      padding: 8px 16px;
+      border: 1px solid white;
+      border-radius: 20px;
+      transition: background 0.3s;
+    }
+
+    nav a:hover {
+      background: white;
+      color: black;
+    }
+
+    /* Main Section */
+    .security-section {
+      text-align: center;
+      padding: 80px 20px;
+    }
+
+    .since-text {
+      font-size: 18px;
+      color: #999;
+      margin-bottom: 10px;
+      letter-spacing: 2px;
+    }
+
+    .from-kansas {
+      font-size: 36px;
+      font-weight: bold;
+      margin-bottom: 40px;
+      color: white;
+      letter-spacing: 2px;
+    }
+
+    .security-section p {
+      max-width: 700px;
+      margin: 0 auto 50px;
+      font-size: 22px;
+      color: #ccc;
+      line-height: 1.6;
+    }
+
+    .security-images {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      flex-wrap: wrap;
+    }
+
+    .security-images .image-block {
+      flex: 1 1 20%;
+      max-width: 20%;
+      text-align: center;
+    }
+
+    .security-images img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    .security-images .name {
+      margin-top: 10px;
+      font-size: 16px;
+      color: white;
+    }
+
+    @media (max-width: 768px) {
+      .security-images .image-block {
+        max-width: 40%;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .security-images .image-block {
+        max-width: 80%;
+      }
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <!-- Security Section -->
+  <div class="security-section">
+    <div class="since-text">Since 2023</div>
+    <div class="from-kansas">FROM KANSAS, USA</div>
+    
+    <p>We believe that exceptional security is far more than just protection — it forms the foundation of trust, ensuring peace of mind while fostering confidence, resilience, and a safe environment for all.</p>
+    
+    <div class="security-images">
+      <div class="image-block">
+        <img src="https://picsum.photos/id/1005/300/200" alt="Trust">
+        <div class="name">Trust</div>
+      </div>
+      <div class="image-block">
+        <img src="https://picsum.photos/id/1006/300/200" alt="Confidence">
+        <div class="name">Confidence</div>
+      </div>
+      <div class="image-block">
+        <img src="https://picsum.photos/id/1008/300/200" alt="Resilience">
+        <div class="name">Resilience</div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
